@@ -1,0 +1,56 @@
+html {
+  background-image: url("https://st2.depositphotos.com/1592314/10316/i/950/depositphotos_103164284-stock-photo-traditional-japanese-food-background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  text-align: center;
+  padding: 50px;
+  color: red;
+  margin-top: -50px;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  text-align: center;
+  margin-top: -50px;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+main {
+  margin: 300px auto;
+  height: 200px;
+  width: 550px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 60px 50px 50px 50px;
+  text-align: center;
+  font-family: "Young Serif", serif;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-top: -50px;
+  border-radius: 10px;
+}
+
+/*a:hover {
+  text-decoration: underline;
+}*/
+
+img {
+margin: -500px auto 20px auto;
+border-style: groove;
+border-radius: 100px;
+height: 100px;
+width: 100px;
+box-shadow: 5px 5px 5px rgba(255, 0, 0,0.3);
+}
