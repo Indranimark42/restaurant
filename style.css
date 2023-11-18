@@ -5,18 +5,63 @@ html {
   background-repeat: no-repeat;
 }
 
+
+body{
+  font-family: "Young Serif", serif;
+}
+
+#page-logo img{
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  margin: 10px 10px;
+  border-color: red;
+}
+
+#flexi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#clam ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width:300px;
+  font-weight: bold;
+  margin: 30px 30px;
+}
+
+#clam ul{
+  list-style-type: none;
+}
+
 h1 {
   font-family: "Young Serif", serif;
   text-align: center;
   padding: 50px;
   color: red;
-  margin-top: -50px;
+  margin-top: -40px;
+  margin-bottom: -20px;
 }
 
 h2 {
   font-family: "Young Serif", serif;
   text-align: center;
-  margin-top: -50px;
+  margin-top: 30px;
   color: aliceblue;
   margin-bottom: 20px;
 }
@@ -33,10 +78,11 @@ main {
   color: aliceblue;
 }
 
-a {
-  color: red;
+
+
+li a{
+  color: white;
   text-decoration: none;
-  background-color: rgb(255, 255, 255);
   padding: 10px;
   margin-top: -50px;
   border-radius: 10px;

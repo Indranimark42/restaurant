@@ -67,3 +67,10 @@ img{
 span{
     color: rgb(255, 0, 0);
 }
+
+.Food2 {
+    padding: 50px 100px;
+    background-color: rgb(0,255,0);
+    border-radius: 10px;
+    color: white;
+}
