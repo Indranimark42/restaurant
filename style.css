@@ -49,6 +49,11 @@ body{
   list-style-type: none;
 }
 
+ul a:hover{
+  background-color: rgb(156, 5, 5);
+  text-decoration: none;
+}
+
 h1 {
   font-family: "Young Serif", serif;
   text-align: center;

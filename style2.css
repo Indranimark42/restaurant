@@ -52,6 +52,11 @@ html{
         border-radius: 10px;
   }
 
+  ul a:hover{
+    background-color: rgb(156, 5, 5);
+    text-decoration: none;
+  }
+
 main{
     font-family: 'Young Serif', serif;
     background-color: rgba(0,0,0,0.8);
@@ -150,4 +155,9 @@ ol{
     text-decoration: none;
     overflow: hidden;
 }
+
+.Food2 a:hover{
+    background-color: rgb(5, 158, 11);
+}
+
 
