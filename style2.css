@@ -110,7 +110,7 @@ a:hover{
 img{
    margin: 0px auto 0px auto;
    height:200px;
-   width: 207px;
+   width: 217px;
 }
 
 span{
@@ -134,9 +134,9 @@ ol{
 .Food2 {
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
     margin: 20px 50px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .Food2 a{
@@ -146,6 +146,8 @@ ol{
     color: white;
     height: 30px;
     width: 207px;
-    margin: 0px 20px 30px 20px;
+    margin: auto;
     text-decoration: none;
+    overflow: hidden;
 }
+
