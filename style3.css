@@ -1,0 +1,62 @@
+html{
+    background-image: url("https://st2.depositphotos.com/1592314/10316/i/950/depositphotos_103164284-stock-photo-traditional-japanese-food-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: 'Young Serif', serif;
+}
+
+#page-logo3 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin: 10px 10px;
+    border-color: red;
+  }
+  
+  #flexi2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #clam3 ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width:300px;
+    font-weight: bold;
+    margin: 30px 30px;
+  }
+  
+  #clam3 ul{
+    list-style-type: none;
+  }
+
+  ul a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        margin-top: -50px;
+        border-radius: 10px;
+  }
+
+  ul a:hover{
+    background-color: rgb(156, 5, 5);
+    text-decoration: none;
+  }

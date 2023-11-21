@@ -5,6 +5,10 @@ html{
     background-repeat: no-repeat;
 }
 
+header {
+    font-family: 'Young Serif', serif;
+}
+
 #page-logo2 img{
     width: 70px;
     height: 70px;
