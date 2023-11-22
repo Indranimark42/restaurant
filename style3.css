@@ -13,7 +13,7 @@ header {
     width: 70px;
     height: 70px;
     border-radius: 100px;
-    margin: 10px 10px;
+    margin: 0.7rem 0.7rem;
     border-color: red;
   }
   
@@ -41,7 +41,7 @@ header {
     justify-content: space-between;
     width:75%;
     font-weight: bold;
-    margin: 30px 30px;
+    margin: 2.1rem 2.1rem;
     
   }
   
