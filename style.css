@@ -32,6 +32,7 @@ body{
   top: 0;
   left: 0;
   font-size: 1rem;
+  width: 100%;
 }
 
 #clam ul{
@@ -80,7 +81,8 @@ main {
   height: 200px;
   width: 550px;
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 60px 50px 50px 50px;
+  /*padding: 60px 50px 50px 50px;*/
+  padding: 10%;
   text-align: center;
   font-family: "Young Serif", serif;
   border-radius: 10px;
