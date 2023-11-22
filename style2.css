@@ -21,7 +21,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 1rem;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
