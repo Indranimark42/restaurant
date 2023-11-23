@@ -32,7 +32,6 @@ body{
   top: 0;
   left: 0;
   font-size: 1rem;
-  width: 100%;
 }
 
 #clam ul{
@@ -42,7 +41,6 @@ body{
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
-  width:75%;
   font-weight: bold;
   margin: 30px 30px;
 }
@@ -110,4 +108,14 @@ border-radius: 100px;
 height: 100px;
 width: 100px;
 box-shadow: 5px 5px 5px rgba(255, 0, 0,0.3);
+}
+
+@media (max-width: 768px) {
+    main {
+      padding: 10%;
+    }
+
+    #flexi {
+      width: 100%;
+    }
 }
