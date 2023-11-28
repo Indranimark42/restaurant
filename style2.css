@@ -164,4 +164,12 @@ ol{
     background-color: rgb(5, 158, 11);
 }
 
+@media (min-width: 768px) {
+    main {
+      padding: 3%;
+    }
 
+    #flexi1 {
+      width: 100%;
+    }
+}
