@@ -63,7 +63,7 @@ h1 {
   margin-bottom: -20px;
   /*font-size: 200%;*/ /*<-- using % value*/
   /*font-size: 2em;*/ /*<--using em value */
-  /*font-size: 2rem;*/ /*<-- using rem value*/
+  font-size: 2rem; /*<-- using rem value*/
 }
 
 h2 {
