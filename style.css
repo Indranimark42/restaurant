@@ -112,7 +112,8 @@ box-shadow: 5px 5px 5px rgba(255, 0, 0,0.3);
 
 @media (max-width: 768px) {
     main {
-      padding: 10%;
+      padding: 3rem;
+      flex-wrap: wrap;
     }
 
     #flexi {
