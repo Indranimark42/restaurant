@@ -110,7 +110,7 @@ width: 100px;
 box-shadow: 5px 5px 5px rgba(255, 0, 0,0.3);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 48rem) {
     main {
       padding: 3rem;
       flex-wrap: wrap;
@@ -120,4 +120,15 @@ box-shadow: 5px 5px 5px rgba(255, 0, 0,0.3);
       width: 100%;
     }
 
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    padding: 3rem;
+    flex-wrap: wrap;
+  }
+
+  #flexi {
+    width: 100%;
+  }
 }
