@@ -48,6 +48,7 @@ body{
 .menu-btn{
   width: 3rem;
   height: 3rem;
+  margin-right: 3rem;
 }
 
 .menu-btn span{
@@ -123,10 +124,18 @@ width: 100px;
 box-shadow: 5px 5px 5px rgba(255, 0, 0,0.3);
 }
 
-@media (min-width: 48rem) {
+@media only screen and (max-width: 48rem) {
+    header nav{
+      display: none;
+    }
+  
     main {
       padding: 3rem;
       flex-wrap: wrap;
+    }
+
+    h1{
+      font-size: 1.5rem;
     }
 
     #flexi {
