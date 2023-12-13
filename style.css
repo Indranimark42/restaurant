@@ -79,12 +79,16 @@ aside ul{
   padding: 4rem 1rem;
 }
 
+aside li{
+    margin: 1rem;
+}
+
 aside a{
     background-color: none;
 }
 
 aside a:hover{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: none;
 }
 
 #clam ul{
@@ -92,7 +96,7 @@ aside a:hover{
   text-align: center;
 }
 
-ul a:hover{
+#idfornav a:hover{
   background-color: rgb(156, 5, 5);
   text-decoration: none;
 }
