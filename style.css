@@ -49,16 +49,15 @@ body{
   width: 3rem;
   height: 3rem;
   margin-right: 3rem;
-  display: none;
 }
 
 .menu-btn span{
-  display: flex;
   width: 100%;
   height: 3px;
   background-color: white;
   margin: 10px 10px;
   flex-direction: column;
+  display: none;
 }
 
 aside {
@@ -178,7 +177,6 @@ box-shadow: 5px 5px 5px rgba(255, 0, 0,0.3);
     }
 
     .menu-btn{
-      display: flex;
       width: 3rem;
       height: 3rem;
       margin-right: 3rem;
