@@ -1,0 +1,147 @@
+html{
+    background-image: url("https://st2.depositphotos.com/1592314/10316/i/950/depositphotos_103164284-stock-photo-traditional-japanese-food-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: 'Young Serif', serif;
+}
+
+#page-logo3 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin: 0.7rem 0.7rem;
+    border-color: red;
+  }
+  
+  #flexi3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #clam4 ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width:75%;
+    font-weight: bold;
+    margin: 2.1rem 2.1rem;
+    
+  }
+  
+  #clam4 ul{
+    list-style-type: none;
+  }
+
+  ul a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        margin-top: -50px;
+        border-radius: 10px;
+  }
+
+  ul a:hover{
+    background-color: rgb(156, 5, 5);
+    text-decoration: none;
+  }
+
+  .menu-btn3{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 3rem;
+  }
+  
+  .menu-btn3 span{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin: 10px 10px;
+    flex-direction: column;
+    display: none;
+  }
+  
+  aside {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: none;
+  }
+  
+  #side-drawer3:target{
+    display: block;
+  }
+  
+  #side-drawer3 header{
+    height: 8.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    padding: 0 3%;
+  }
+  
+  aside ul{
+    list-style: none;
+    display: flex;
+    margin: 10px 10px;
+    flex-direction: column;
+    align-items: center ;
+    margin: 0;
+    padding: 4rem 1rem;
+  }
+  
+  aside li{
+      margin: 1rem;
+  }
+  
+  aside a{
+      background-color: none;
+  }
+  
+  aside a:hover{
+    background-color: none;
+  }
+
+  @media (max-width: 48rem) {
+    
+    header nav{
+        display: none;
+      }
+  
+      .menu-btn3{
+        width: 3rem;
+        height: 3rem;
+        margin-right: 3rem;
+      }
+  
+      .menu-btn3 span{
+        display: flex;
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        margin: 10px 10px;
+        flex-direction: column;
+      }
+
+
+}
