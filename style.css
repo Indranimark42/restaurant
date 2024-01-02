@@ -45,6 +45,11 @@ body{
   margin: 30px 30px;
 }
 
+ul a:hover{
+  background-color: rgb(156, 5, 5);
+  text-decoration: none;
+}
+
 .menu-btn{
   width: 3rem;
   height: 3rem;

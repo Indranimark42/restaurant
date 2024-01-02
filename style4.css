@@ -5,7 +5,7 @@ html{
     background-repeat: no-repeat;
 }
 
-header {
+body {
     font-family: 'Young Serif', serif;
 }
 
@@ -39,7 +39,7 @@ header {
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
-    width:75%;
+    /*width:75%;*/
     font-weight: bold;
     margin: 2.1rem 2.1rem;
     
