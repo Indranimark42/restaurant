@@ -122,6 +122,47 @@ body {
     background-color: none;
   }
 
+  main{
+    margin: 300px auto;
+    height: 220px;
+    width: 500px;
+    padding: 3rem;
+    padding-bottom: 70px;
+    text-align: left;
+    font-family: "Young Serif", serif;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .sub-details{
+    display: grid;
+  }
+
+  .sub-details a{
+    color: white;
+  }
+
+  .sub-details a:hover{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+  }
+
+  .button-container{
+    display: grid;
+  }
+
+  .button-container a{
+    color: white;
+  }
+
+  .button-container a:hover{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+  }
+
   @media (max-width: 48rem) {
     
     header nav{
