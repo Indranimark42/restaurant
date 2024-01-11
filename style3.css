@@ -141,12 +141,12 @@ body {
 
   .sub-details a{
     color: white;
+    text-decoration: none;
   }
 
   .sub-details a:hover{
     text-decoration: none;
     background-color: red;
-    color: white;
   }
 
   .button-container{
@@ -155,6 +155,8 @@ body {
 
   .button-container a{
     color: white;
+    text-decoration: none;
+    margin-top: 10px;
   }
 
   .button-container a:hover{
