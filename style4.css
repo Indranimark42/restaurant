@@ -163,7 +163,8 @@ body{
 }
 
 .input-field{
-    border: 1px solid #999;
+    border: 1px solid #706f6f;
+    border-radius: 0.5rem;
 }
 
 .input-field input{
@@ -183,7 +184,7 @@ body{
     padding: 10px 20px;
 }
 
-.button1 a{
+button{
     background-color: blueviolet;
     color: white;
     text-align: center;
@@ -192,9 +193,10 @@ body{
     padding: 10px;
     font-size: 18px;
     transition: 0.5s;
+    border-radius: 0.5rem;
 }
 
-.button1 a:hover{
+button:hover{
     background-color: dodgerblue;
 }
 
