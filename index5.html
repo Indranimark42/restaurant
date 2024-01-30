@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LogIn</title>
 </head>
 <body>
     <header>
         <h1>Welcome back to Ikigai! We missed you!</h1>
     </header>
     <forms action="/" method="GET">
-
+        <section>
+            <ul>
+                <li>
+                    <label for="email1">Your email or phone no:</label>
+                    <input type="text" name="email" id="email1" required placeholder="Eg:aby@xyc.com or 8888800000"/>                </li>
+                <li>
+                    <label for="pass">Password</label>
+                    <input type="password" name="password" id="pass"/>
+                </li>
+            </ul>
+        </section>
+        <button>Log In</button>
     </forms>
 </body>
 </html>
