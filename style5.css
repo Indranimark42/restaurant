@@ -1,0 +1,199 @@
+html {
+    background-image: url("https://st2.depositphotos.com/1592314/10316/i/950/depositphotos_103164284-stock-photo-traditional-japanese-food-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  
+  body{
+    font-family: "Young Serif", serif;
+    margin: 8rem;
+    padding: 5rem 5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  #page-logo4 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin: 10px 10px;
+    border-color: red;
+  }
+
+  #flexi4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #clam5 ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    /*width:75%;*/
+    font-weight: bold;
+    margin: 2.1rem 2.1rem;
+    
+  }
+  
+  #clam5 ul{
+    list-style-type: none;
+  }
+
+  ul a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        margin-top: -50px;
+        border-radius: 10px;
+  }
+
+  ul a:hover{
+    background-color: rgb(156, 5, 5);
+    text-decoration: none;
+  }
+
+  .menu-btn3{
+    width: 3rem;
+    height: 3rem;
+    margin-right: 3rem;
+  }
+  
+  .menu-btn3 span{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin: 10px 10px;
+    flex-direction: column;
+    display: none;
+  }
+  
+  aside {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: none;
+  }
+  
+  #side-drawer3:target{
+    display: block;
+  }
+  
+  #side-drawer3 header{
+    height: 8.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(255, 0, 0);
+    padding: 0 3%;
+  }
+  
+  aside ul{
+    list-style: none;
+    display: flex;
+    margin: 10px 10px;
+    flex-direction: column;
+    align-items: center ;
+    margin: 0;
+    padding: 4rem 1rem;
+  }
+  
+  aside li{
+      margin: 1rem;
+  }
+  
+  aside a{
+      background-color: none;
+  }
+  
+  aside a:hover{
+    background-color: none;
+  }
+
+  h1{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+  }
+  
+  form {
+    margin: 3rem auto;
+    width: 30rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+  }
+
+  section ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section li{
+    list-style-type:none ;
+  }
+
+  label{
+    color: black;
+    font-weight: 600;
+  }
+
+  input {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    font-family: "Young Serif", serif;
+    border: 1px solid rgb(184, 184, 184);
+    padding: 0.25rem;
+      border-radius: 0.2rem;
+  }
+
+  input:focus{
+    background-color: rgb(241, 241, 140);
+    border-color: black;
+    color: black;
+}
+
+button {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    display: block;
+    font-family:"Lexend Deca", sans-serif;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: red;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  button:hover {
+        background-color: rgb(160, 7, 7);
+        cursor: pointer;
+  }
+
+
+
+
+  
+ 
