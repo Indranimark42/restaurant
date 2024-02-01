@@ -184,8 +184,13 @@ body{
     padding: 10px 20px;
 }
 
+.cards img{
+  border-radius: 0.5rem;
+  justify-content: space-around;
+}
+
 button{
-    background-color: blueviolet;
+    background-color: rgb(255, 0, 0);
     color: white;
     text-align: center;
     text-transform: uppercase;
@@ -197,7 +202,8 @@ button{
 }
 
 button:hover{
-    background-color: dodgerblue;
+    background-color: rgb(254, 254, 254);
+    color: red;
 }
 
 .cards img{
