@@ -11,6 +11,7 @@
     />
     <link href="style5.css" rel="stylesheet" />
     <title>LogIn</title>
+    <script src="website.js"></script>
 </head>
 <body>
     <header id="flexi4">
@@ -45,21 +46,22 @@
           <span></span>
         </a>
     </header>
-    <forms action="/" method="GET">
+    <form action="/" method="GET">
         <h1>Welcome back to Ikigai! We missed you!</h1>
         <section>
             <ul>
                 <li>
                     <label for="email1">Your email or phone no:</label>
-                    <input type="text" name="email" id="email1" required placeholder="Eg:aby@xyc.com or 8888800000"/>                </li>
+                    <input type="text" name="email" id="email1" required placeholder="Eg:aby@xyc.com"/>                
+                  </li>
                 <li>
-                    <label for="pass">Password</label>
-                    <input type="password" name="password" id="pass"/>
+                    <label for="pass">Your Password:</label>
+                    <input type="password" name="password" id="pass" required maxlength="12" minlength="7"/>
                 </li>
             </ul>
         </section>
-        <button><a href="index.html">Log In</a></button>
-    </forms>
+        <button type="submit">Log In</button>
+    </form>
     <aside id="side-drawer4">
         <header>
           <a href="#" class="menu-btn4">
