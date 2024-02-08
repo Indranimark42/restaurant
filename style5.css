@@ -13,6 +13,7 @@ html {
     background-color: rgba(10, 10, 10, 0.5);
     border-radius: 3rem;
     margin-top: 15rem;
+    box-sizing: border-box;
   }
   
   #page-logo4 img{
@@ -139,12 +140,14 @@ html {
     text-align: center;
     color: rgb(255, 0, 0);
     font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: -2rem;
   }
   
   form {
     margin: 3rem auto;
     width: 30rem;
-    background-color: white;
+   /* background-color: white;*/
     padding: 2rem;
     border-radius: 0.5rem;
     box-sizing: border-box;
@@ -164,6 +167,7 @@ html {
   label{
     color: rgb(253, 252, 252);
     font-weight: 600;
+    display: block;
   }
 
   input {
